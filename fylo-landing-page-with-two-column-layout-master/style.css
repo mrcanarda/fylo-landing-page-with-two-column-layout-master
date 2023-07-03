@@ -1,0 +1,100 @@
+/*
+font-family: 'Raleway', sans-serif;
+*/
+
+/* 
+font-family: 'Open Sans', sans-serif;
+*/
+
+body {
+  padding: 0 4.6rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* Because we want header to be sticky later */
+  height: 9.6rem;
+  position: relative;
+}
+
+.logo {
+  height: 2.4rem;
+}
+
+/**************************/
+/* NAVIGATION */
+/**************************/
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.2rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #333;
+}
+
+/**************************/
+/* HERO */
+/**************************/
+
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-header h2 {
+  font-family: "Raleway", sans-serif;
+  width: 70%;
+  line-height: 1.6;
+  font-size: 2rem;
+}
+
+.hero-header p {
+  width: 67%;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.4;
+}
+
+.hero-label input {
+  margin-top: 1rem;
+  padding: 0.5rem;
+}
+
+.label-link:link,
+.label-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.2rem;
+  transition: all 0.3s;
+}
+
+.label-link:hover,
+.label-link:active {
+  color: #333;
+}
+
+.hero-img img {
+  height: 24rem;
+}
