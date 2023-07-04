@@ -7,7 +7,7 @@ font-family: 'Open Sans', sans-serif;
 */
 
 body {
-  padding: 0 4.6rem;
+  padding: 4rem 20rem;
 }
 
 .header {
@@ -22,6 +22,7 @@ body {
 
 .logo {
   height: 2.4rem;
+  margin-bottom: 6rem;
 }
 
 /**************************/
@@ -62,29 +63,33 @@ body {
 
 .hero-header h2 {
   font-family: "Raleway", sans-serif;
-  width: 70%;
+  width: 60%;
   line-height: 1.6;
   font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
 .hero-header p {
-  width: 67%;
+  width: 60%;
   font-family: "Raleway", sans-serif;
   font-size: 1.1rem;
   line-height: 1.4;
 }
 
+/**************************/
+/* HERO IMPUT */
+/**************************/
+
 .hero-label input {
-  margin-top: 1rem;
-  padding: 0.5rem;
+  padding: 0.5rem 4rem;
 }
 
 .label-link:link,
 .label-link:visited {
-  display: inline-block;
+  padding: 0.68rem 4rem;
   text-decoration: none;
   font-family: "Open Sans", sans-serif;
-  color: #333;
+  color: #fff;
   font-weight: 500;
   font-size: 1.2rem;
   transition: all 0.3s;
@@ -92,9 +97,26 @@ body {
 
 .label-link:hover,
 .label-link:active {
-  color: #333;
+  color: #fff;
+  background-color: hsl(238, 22%, 44%);
 }
 
+.label-link {
+  margin-top: 1rem;
+  padding-bottom: 2rem;
+  padding: 0.5rem 3rem;
+  margin-left: 1rem;
+  background-color: hsl(224, 93%, 58%);
+}
+
+.hero-label {
+  margin-top: 1.2rem;
+}
+
+/**************************/
+/* HERO IMG */
+/**************************/
+
 .hero-img img {
-  height: 24rem;
+  height: 36rem;
 }
