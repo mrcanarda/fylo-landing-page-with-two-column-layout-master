@@ -59,6 +59,7 @@ body {
 .hero {
   display: flex;
   flex-direction: column;
+  margin-bottom: 30rem;
 }
 
 .hero-header h2 {
@@ -119,4 +120,125 @@ body {
 
 .hero-img img {
   height: 36rem;
+}
+
+/**************************/
+/* HOW CAN I USE THAT ?  */
+/**************************/
+
+.section-how-can-i-use {
+  background-image: url(images/bg-curve-desktop.svg);
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 5rem;
+}
+
+.how-can-use {
+  display: flex;
+  flex-direction: column;
+  padding-top: 8rem;
+}
+
+.how-can-use-parag h2 {
+  margin-bottom: 2.4rem;
+  font-size: 3rem;
+  color: rgba(0, 0, 0, 0.699);
+  font-family: "Raleway", sans-serif;
+}
+
+.how-can-use-parag p {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.4;
+  width: 70%;
+  margin-bottom: 1.2rem;
+}
+
+.how-can-use-parag a:link,
+.how-can-use-parag a:visited {
+  font-family: "Raleway", sans-serif;
+  color: hsl(170, 45%, 43%);
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+
+.how-can-use-parag a:hover,
+.how-can-use-parag a:active {
+  font-family: "Raleway", sans-serif;
+  text-decoration: underline;
+}
+
+/**************************/
+/* HOW CAN I USE COMMENTED */
+/**************************/
+
+.how-can-use-commented {
+  margin-top: 2rem;
+  border-radius: 1rem;
+  width: 56%;
+  background-color: #fff;
+  padding: 2rem;
+}
+
+.how-can-use-commented h2 {
+  font-size: 4rem;
+}
+
+.how-can-use-commented p {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+}
+
+.how-can-use-commented img {
+  border-radius: 50%;
+  width: 5rem;
+}
+
+.com-img {
+  display: flex;
+  gap: 2rem;
+}
+
+.need-s p {
+  font-size: 1rem;
+}
+
+/**************************/
+/* HOW CAN I USE THAT IMG ?  */
+/**************************/
+
+.how-can-i-use-img img {
+  padding-top: 8rem;
+  height: 36rem;
+}
+
+/**************************/
+/*    INFORMATION     */
+/**************************/
+
+.information {
+  background-color: hsl(238, 22%, 44%);
+  padding: 6rem;
+}
+
+.hero-label {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-header h1 {
+  font-size: 2rem;
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  margin-bottom: 1.4rem;
+}
+
+.info-header p {
+  font-size: 1.4rem;
+  font-family: "Raleway", sans-serif;
+  width: 74%;
+  color: #fff;
+  line-height: 1.4;
 }
