@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
 
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -129,7 +138,7 @@
             to help you
           </p>
         </div>
-        <div class="hero-label">
+        <div class="hero-label hr-lbl">
           <label for="email"></label>
           <input
             id="email"
@@ -138,18 +147,62 @@
             name="email"
             required
           />
-          <a class="label-link" href="#">Get Started</a>
+          <a class="label-link lbl" href="#">Get Started For Free </a>
         </div>
       </section>
+
+      <footer class="footr">
+        <a href="#">
+          <img class="footer-logo" src="images/logo.svg" alt="Fylo-Logo" />
+        </a>
+        <section class="section-footer grid grid--4-cols">
+          <div class="footer-one">
+            <div class="foo">
+              <img src="images/icon-phone.svg" alt="" />
+              <p>Phone: +1-543-123-4567</p>
+            </div>
+            <div class="foo">
+              <img src="images/icon-email.svg" alt="" />
+              <p>example@fylo.com</p>
+            </div>
+          </div>
+          <div class="footer-two">
+            <ul class="footer-list">
+              <li><a class="footer-link" href="#">About Us</a></li>
+              <li><a class="footer-link" href="#">Jobs</a></li>
+              <li><a class="footer-link" href="#">Press</a></li>
+              <li><a class="footer-link" href="#">Blog</a></li>
+            </ul>
+          </div>
+          <div class="footer-three">
+            <ul class="footer-list">
+              <li><a class="footer-link" href="#">Contact Us</a></li>
+              <li><a class="footer-link" href="#">Terms</a></li>
+              <li><a class="footer-link" href="#">Privacy</a></li>
+            </ul>
+          </div>
+          <div class="footer-four">
+            <div>
+              <ion-icon class="icon-footer-nav" name="logo-facebook"></ion-icon>
+            </div>
+            <div>
+              <ion-icon class="icon-footer-nav" name="logo-twitter"></ion-icon>
+            </div>
+            <div>
+              <ion-icon
+                class="icon-footer-nav"
+                name="logo-instagram"
+              ></ion-icon>
+            </div>
+          </div>
+        </section>
+      </footer>
     </main>
   </body>
 </html>
-
-<footer>
-  <p class="attribution">
-    Challenge by
-    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-      >Frontend Mentor</a
-    >. Coded by <a href="#">Your Name Here</a>.
-  </p>
-</footer>
+<p class="attribution">
+  Challenge by
+  <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+    >Frontend Mentor</a
+  >. Coded by <a href="#">Your Name Here</a>.
+</p>
